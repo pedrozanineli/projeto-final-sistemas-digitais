@@ -17,13 +17,12 @@ Como hardware, a seguinte lista foi utilizada:
 
 ## Funcionamento
 
-O sistema tem como ponto de partida o acionamento de uma mensagem no visor LCD, indicando as cores referidas por cada botão - isto é, verde na esquerda e vermelho na direita. Assim, o usuário pode dar um sinal de entrada, um "gatilho", iniciando a jogada. Nesse primeiro momento, a velocidade é alta e vai diminuindo com o tempo até finalmente parar, de forma que esse ponto de paragem é atribuído de <strong>maneira aleatória</strong>.
+O sistema tem como ponto de partida o acionamento de uma mensagem no visor LCD, indicando as cores referidas por cada botão - isto é, verde na esquerda e vermelho na direita. Assim, o usuário pode dar um sinal de entrada, um "gatilho", iniciando a jogada. Nesse primeiro momento, a velocidade é alta e vai diminuindo com o tempo até finalmente parar, de forma que esse ponto de paragem é atribuído de <strong>maneira pseudo-aleatória</strong>.
 
-Como cada led verde ocupará uma posição par e cada vermelho ocupará uma posição ímpar, torna-se possível a definição da vitória ou derrota de acordo com uma comparação entre essa característica e o módulo de 2 do inteiro aleatório definido. Por fim, o visor irá indicar o resultado com "Ganhou!" ou "Perdeu!", juntamente de uma resposta sonora para cada um dos casos e o acendimento da cor do ponto de paragem.
+Como cada led verde ocupará uma posição par e cada vermelho ocupará uma posição ímpar, torna-se possível a definição da vitória ou derrota de acordo com uma comparação entre essa característica e o módulo de 2 do inteiro pseudo-aleatório definido. Por fim, o visor irá indicar o resultado com "Ganhou!" ou "Perdeu!", juntamente de uma resposta sonora para cada um dos casos e o acendimento da cor do ponto de paragem.
+
+Como último ponto, é importante notar que a aleatoridade do número gerado não tem uma garantia de imprevisibilidade, visto que apenas aproxima algumas das características desses grupos. O importante cientista da computação John von Neumann inclusive afirma: "Qualquer um que considere métodos aritméticos para produzir dígitos está, certamente, cometendo um pecado". Assim, um próximo passo e oportunidade de melhoria é o melhor desenvolvimento do ponto final do funcionamento.
+
 
 Mudar link do projeto quando for enviar - deixar o link que funcionará por mais tempo
 https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final/editel?sharecode=2o_n-4D3_C1sNqj1uVgDDtlZ-7cvu519FyxNYPYB3Lc
-
-## 4. Diagrama Elétrico
-
-## 6.Conclusão
