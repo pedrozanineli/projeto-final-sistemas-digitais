@@ -22,7 +22,7 @@ Como hardware, foi utilizado:
 
 ## Funcionamento
 
-O sistema tem como ponto de partida o acionamento de uma mensagem no visor LCD, indicando as cores referidas por cada botão - isto é, verde na esquerda e vermelho na direita. Assim, o usuário pode dar um sinal de entrada, um "gatilho", iniciando a jogada. Nesse primeiro momento, a velocidade é alta e vai diminuindo com o tempo até finalmente parar, de forma que esse ponto de paragem é atribuído de <strong>maneira pseudo-aleatória</strong>.
+O sistema tem como ponto de partida o acionamento de uma mensagem no visor LCD, indicando as cores referidas por cada botão - isto é, verde na esquerda e vermelho na direita. Assim, o usuário pode dar um sinal de entrada, um "gatilho", iniciando a jogada. Nesse primeiro momento, a velocidade é alta e vai diminuindo com o tempo até finalmente parar, de forma que esse ponto de paragem é atribuído de maneira <strong>pseudo-aleatória</strong>.
 
 Como cada led verde ocupará uma posição par e cada vermelho ocupará uma posição ímpar, torna-se possível a definição da vitória ou derrota de acordo com uma comparação entre essa característica e o módulo de 2 do inteiro pseudo-aleatório definido. Por fim, o visor irá indicar o resultado com "Ganhou!" ou "Perdeu!", juntamente de uma resposta sonora para cada um dos casos e o acendimento da cor do ponto de paragem.
 
