@@ -1,10 +1,13 @@
 ## Projeto Final Sistemas Digitais
 
-O presente projeto foi desenvolvido como trabalho final da matéria de Sistemas Digitiais, com a construção de uma roleta utilizada em jogos de sorteio. Para tanto, foi utilizada a plataforma Tinkercad, possibilitando a esquematização do diagrama elétrico e simulação do funcionamento de fato do projeto.
+Mudar link do projeto quando for enviar - deixar o link que funcionará por mais tempo
+https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final/editel?sharecode=2o_n-4D3_C1sNqj1uVgDDtlZ-7cvu519FyxNYPYB3Lc
 
-Como hardware, a seguinte lista foi utilizada:
+O presente projeto foi desenvolvido como trabalho final da matéria de Sistemas Digitais, com a construção de uma roleta utilizada em jogos de sorteio. Para tanto, foi utilizada a plataforma Tinkercad, possibilitando a esquematização do diagrama elétrico e simulação do funcionamento de fato do projeto.
 
-- 1 Arduíno Uno R3;
+Como hardware, foi utilizado:
+
+- 1 Arduino Uno R3;
 - 1 Protoboard pequena;
 - 1 Potenciômetro de 250KΩ;
 - 4 Resistores (3 de 1KΩ e 1 de 220Ω);
@@ -21,8 +24,4 @@ O sistema tem como ponto de partida o acionamento de uma mensagem no visor LCD, 
 
 Como cada led verde ocupará uma posição par e cada vermelho ocupará uma posição ímpar, torna-se possível a definição da vitória ou derrota de acordo com uma comparação entre essa característica e o módulo de 2 do inteiro pseudo-aleatório definido. Por fim, o visor irá indicar o resultado com "Ganhou!" ou "Perdeu!", juntamente de uma resposta sonora para cada um dos casos e o acendimento da cor do ponto de paragem.
 
-Como último ponto, é importante notar que a aleatoridade do número gerado não tem uma garantia de imprevisibilidade, visto que apenas aproxima algumas das características desses grupos. O importante cientista da computação John von Neumann inclusive afirma: "Qualquer um que considere métodos aritméticos para produzir dígitos está, certamente, cometendo um pecado". Assim, um próximo passo e oportunidade de melhoria é o melhor desenvolvimento do ponto final do funcionamento.
-
-
-Mudar link do projeto quando for enviar - deixar o link que funcionará por mais tempo
-https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final/editel?sharecode=2o_n-4D3_C1sNqj1uVgDDtlZ-7cvu519FyxNYPYB3Lc
+Como último ponto, é importante notar que a aleatoriedade do número gerado não tem uma garantia de imprevisibilidade, visto que apenas aproxima algumas das características desses grupos. O importante cientista da computação John von Neumann inclusive afirma: "Qualquer um que considere métodos aritméticos para produzir dígitos está, certamente, cometendo um pecado". Assim, um próximo passo e oportunidade de melhoria é o melhor desenvolvimento do ponto final do funcionamento.
