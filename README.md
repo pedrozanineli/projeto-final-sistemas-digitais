@@ -1,11 +1,9 @@
 ## Projeto Final Sistemas Digitais
 
-Mudar link do projeto quando for enviar - deixar o link que funcionará por mais tempo
-
 Link para o projeto no Tinkercad (observação: o link tem um prazo de funcionamento e pode não estar acessível por conta disso):
 
 
-[![Tinkercad Badge](https://img.shields.io/badge/-Tinkercad-lightgrey?logo=autodesk&style=flat&logoColor=white&color=000880)](https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final/editel?sharecode=2o_n-4D3_C1sNqj1uVgDDtlZ-7cvu519FyxNYPYB3Lc)
+[![Tinkercad Badge](https://img.shields.io/badge/-Tinkercad-lightgrey?logo=autodesk&style=flat&logoColor=white&color=000880)](https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final)
 
 
 O presente projeto foi desenvolvido como trabalho final da matéria de Sistemas Digitais, com a construção de uma roleta utilizada em jogos de sorteio. Para tanto, foi utilizada a plataforma Tinkercad, possibilitando a esquematização do diagrama elétrico e simulação do funcionamento de fato do projeto.
