@@ -1,6 +1,6 @@
 ## Projeto Final Sistemas Digitais
 
-Link para o projeto no Tinkercad (observação: o link tem um prazo de funcionamento e pode não estar acessível por conta disso):
+Link para o projeto no Tinkercad:
 
 
 [![Tinkercad Badge](https://img.shields.io/badge/-Tinkercad-lightgrey?logo=autodesk&style=flat&logoColor=white&color=000880)](https://www.tinkercad.com/things/0cwSY3lfnwK-projeto-final)
